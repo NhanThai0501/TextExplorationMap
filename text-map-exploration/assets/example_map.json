@@ -1,0 +1,172 @@
+{
+    "map": [
+        {
+            "coordinates": [0, 0],
+            "description": "Start Room",
+            "connections": ["east", "south"],
+            "items": ["key"],
+            "event": null
+        },
+        {
+            "coordinates": [0, 1],
+            "description": "Hallway",
+            "connections": ["west", "east"],
+            "items": ["torch"],
+            "event": null
+        },
+        {
+            "coordinates": [0, 2],
+            "description": "Library",
+            "connections": ["west", "east", "south"],
+            "items": ["ancient_scroll"],
+            "event": "math_series"
+        },
+        {
+            "coordinates": [0, 3],
+            "description": "Empty Room",
+            "connections": ["west", "east"],
+            "items": [],
+            "event": null
+        },
+        {
+            "coordinates": [0, 4],
+            "description": "Observatory",
+            "connections": ["west", "east"],
+            "items": ["telescope"],
+            "event": "pattern_recognition"
+        },
+        {
+            "coordinates": [0, 5],
+            "description": "Study Room",
+            "connections": ["west", "east", "south"],
+            "items": ["book"],
+            "event": "find_symbol_puzzle"
+        },
+        {
+            "coordinates": [0, 6],
+            "description": "Balcony",
+            "connections": ["west", "east"],
+            "items": [],
+            "event": null
+        },
+        {
+            "coordinates": [0, 7],
+            "description": "Garden",
+            "connections": ["west", "south"],
+            "items": ["flowers"],
+            "event": null
+        },
+        {
+            "coordinates": [1, 0],
+            "description": "Storage Room",
+            "connections": ["north", "east"],
+            "items": ["health_potion"],
+            "event": null
+        },
+        {
+            "coordinates": [1, 1],
+            "description": "Crossroads",
+            "connections": ["west", "east", "south"],
+            "items": [],
+            "event": null
+        },
+        {
+            "coordinates": [1, 2],
+            "description": "Armory",
+            "connections": ["north", "west", "east"],
+            "items": ["sword", "shield"],
+            "event": "riddle_puzzle"
+        },
+        {
+            "coordinates": [1, 3],
+            "description": "Corridor",
+            "connections": ["west", "east"],
+            "items": [],
+            "event": null
+        },
+        {
+            "coordinates": [1, 4],
+            "description": "Lounge",
+            "connections": ["west", "east", "south"],
+            "items": ["sofa"],
+            "event": null
+        },
+        {
+            "coordinates": [1, 5],
+            "description": "Hidden Library",
+            "connections": ["north", "west", "east"],
+            "items": ["mystical_scroll"],
+            "event": "cryptogram"
+        },
+        {
+            "coordinates": [1, 6],
+            "description": "Treasure Vault",
+            "connections": ["west", "east", "south"],
+            "items": ["treasure_chest"],
+            "event": "locked"
+        },
+        {
+            "coordinates": [1, 7],
+            "description": "Meditation Room",
+            "connections": ["west", "south"],
+            "items": ["glowing_crystal"],
+            "event": null
+        },
+        {
+            "coordinates": [2, 0],
+            "description": "Hidden Chamber",
+            "connections": ["north", "east"],
+            "items": ["map_fragment"],
+            "event": null
+        },
+        {
+            "coordinates": [2, 1],
+            "description": "Empty Room",
+            "connections": ["west", "east"],
+            "items": [],
+            "event": null
+        },
+        {
+            "coordinates": [2, 2],
+            "description": "Guard Room",
+            "connections": ["west", "east"],
+            "items": ["helmet"],
+            "event": "locked"
+        },
+        {
+            "coordinates": [2, 3],
+            "description": "Crypt",
+            "connections": ["west", "east"],
+            "items": ["ancient_coin"],
+            "event": "true_or_false"
+        },
+        {
+            "coordinates": [2, 4],
+            "description": "Corridor",
+            "connections": ["west", "east"],
+            "items": [],
+            "event": null
+        },
+        {
+            "coordinates": [2, 5],
+            "description": "Dark Passage",
+            "connections": ["west", "east"],
+            "items": ["lantern"],
+            "event": "pattern_recognition"
+        },
+        {
+            "coordinates": [2, 6],
+            "description": "Treasure Room",
+            "connections": ["west", "east"],
+            "items": ["gems"],
+            "event": null
+        },
+        {
+            "coordinates": [2, 7],
+            "description": "Exit Room",
+            "connections": ["west", "north"],
+            "items": [],
+            "event": "locked"
+        }
+    ]
+}

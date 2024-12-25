@@ -1,0 +1,78 @@
+{
+    "math_puzzle": [
+        {"question": "What is 3 + 5?", "answer": "8", "hint": "Add the two numbers."},
+        {"question": "What is 7 + 2?", "answer": "9", "hint": "Add the two numbers."},
+        {"question": "What is 10 + 4?", "answer": "14", "hint": "Add the two numbers."},
+        {"question": "What is 6 + 3?", "answer": "9", "hint": "Add the two numbers."},
+        {"question": "What is 8 + 7?", "answer": "15", "hint": "Add the two numbers."}
+    ],
+    "find_symbol_puzzle": [
+        {
+            "question": "Find the unique symbol: @ @ @ # @ @",
+            "answer": "#",
+            "hint": "Look for the symbol that appears only once."
+        },
+        {
+            "question": "Find the unique symbol: $ $ $ & $ $",
+            "answer": "&",
+            "hint": "Look for the symbol that appears only once."
+        },
+        {
+            "question": "Find the unique symbol: # # # @ # #",
+            "answer": "@",
+            "hint": "Look for the symbol that appears only once."
+        },
+        {
+            "question": "Find the unique symbol: & & & $ & &",
+            "answer": "$",
+            "hint": "Look for the symbol that appears only once."
+        },
+        {
+            "question": "Find the unique symbol: * * * # * *",
+            "answer": "#",
+            "hint": "Look for the symbol that appears only once."
+        }
+    ],
+    "pattern_recognition": [
+        {"question": "@, #, @, #, @, ?", "answer": "#", "hint": "The pattern alternates between @ and #."},
+        {"question": "1, 2, 1, 2, 1, ?", "answer": "2", "hint": "The pattern alternates between 1 and 2."},
+        {"question": "A, B, A, B, A, ?", "answer": "B", "hint": "The pattern alternates between A and B."},
+        {"question": "X, Y, X, Y, X, ?", "answer": "Y", "hint": "The pattern alternates between X and Y."},
+        {"question": "@, &, @, &, @, ?", "answer": "&", "hint": "The pattern alternates between @ and &."}
+    ],
+    "math_series": [
+        {"question": "What comes next in the sequence: 2, 4, 6, 8, ?", "answer": "10", "hint": "The sequence increases by 2."},
+        {"question": "What comes next in the sequence: 1, 3, 5, 7, ?", "answer": "9", "hint": "The sequence increases by 2."},
+        {"question": "What comes next in the sequence: 10, 20, 30, 40, ?", "answer": "50", "hint": "The sequence increases by 10."},
+        {"question": "What comes next in the sequence: 5, 10, 15, 20, ?", "answer": "25", "hint": "The sequence increases by 5."},
+        {"question": "What comes next in the sequence: 100, 200, 300, 400, ?", "answer": "500", "hint": "The sequence increases by 100."}
+    ],
+    "odd_one_out": [
+        {"question": "Which one is different? Cat, Dog, Elephant, Car, Mouse", "answer": "Car", "hint": "One of these is not an animal."},
+        {"question": "Which one is different? Apple, Banana, Orange, Chair", "answer": "Chair", "hint": "One of these is not a fruit."},
+        {"question": "Which one is different? Sun, Moon, Star, Table", "answer": "Table", "hint": "One of these is not celestial."},
+        {"question": "Which one is different? Rock, Paper, Scissors, Book", "answer": "Book", "hint": "One of these is not part of the game."},
+        {"question": "Which one is different? Blue, Red, Yellow, Cat", "answer": "Cat", "hint": "One of these is not a color."}
+    ],
+    "true_or_false": [
+        {
+            "question": "The sun is a star. (True/False)", "answer": "true",
+            "hint": "Think about astronomy."
+        },
+        {
+            "question": "Water boils at 50°C. (True/False)", "answer": "false",
+            "hint": "What temperature does water boil at sea level?"
+        },
+        {
+            "question": "A triangle has three sides. (True/False)", "answer": "true",
+            "hint": "Think about geometry basics."
+        }
+    ],
+    "equation_balancing": [
+        {"question": "6 + ? = 10", "answer": "4", "hint": "Solve 10 - 6."},
+        {"question": "12 - ? = 8", "answer": "4", "hint": "Solve 12 - 8."},
+        {"question": "5 x ? = 20", "answer": "4", "hint": "Divide 20 by 5."},
+        {"question": "? + 7 = 14", "answer": "7", "hint": "Subtract 7 from 14."},
+        {"question": "9 / ? = 3", "answer": "3", "hint": "Divide 9 by 3."}
+    ]
+}

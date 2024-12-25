@@ -1,0 +1,20 @@
+# Logical 4x4 Map
+0,0: Start Room; east,south; key; none
+0,1: Hallway; west,east; torch; none
+0,2: Library; west,south; ancient_scroll; math_puzzle
+0,3: Observatory; west,south; telescope; none
+
+1,0: Storage Room; north,south; health_potion; none
+1,1: Crossroads; north,west,east,south; ; none
+1,2: Armory; north,west,east; sword,shield; find_symbol_puzzle
+1,3: Reading Room; north,south; book; pattern_recognition
+
+2,0: Hidden Chamber; north,east; map_fragment; none
+2,1: Empty Room; west,south; ; none
+2,2: Guard Room; north,south; helmet; locked
+2,3: Meditation Room; north; glowing_crystal; math_series
+
+3,0: Exit Room; north; ; locked
+3,1: Dark Passage; north,east; lantern; odd_one_out
+3,2: Cavern; west,east; gold_coin; true_or_false
+3,3: Treasure Room; west,north; treasure_chest; equation_balancing
