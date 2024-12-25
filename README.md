@@ -22,6 +22,6 @@ A text-based adventure game that allows players to navigate a dynamic map, solve
 - game/map.py: Manages the dynamic map, including room connections and display logic.
 - game/player.py: Defines the player class and inventory management.
 - game/puzzles.py: Handles puzzles and room events.
-**Assets**:
+### **Assets**:
 - assets/example_map.json: Defines the map structure, rooms, connections, items, and events.
 - assets/puzzles.json: Contains puzzles and events for specific rooms.
